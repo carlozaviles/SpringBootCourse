@@ -43,3 +43,276 @@ Binding(COMMAND+SHIFT+T,
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
 !SUBENTRY 1 org.eclipse.ui 2 0 2020-07-28 22:01:02.544
 !MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:49.626
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:49.628
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6fa98e98[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=1066)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:49.633
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:49.701
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.288
+!MESSAGE Boot LS startup time from start to initialized: 3634ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.416
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgXXcKEdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.418
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.420
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.423
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.427
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.427
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:25:53.428
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgXXcKEd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:07.849
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:07.856
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:07.857
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:07.858
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:07.859
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:29:07.859
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:12.499
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:12.508
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:12.510
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:12.511
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:12.511
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:29:12.512
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:14.088
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:14.092
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:14.096
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:14.096
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:14.113
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:29:14.113
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:15.329
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:15.333
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:15.335
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:15.336
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:29:15.336
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:29:15.337
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:30:01.110
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:30:01.114
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:30:01.117
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:30:01.117
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:30:01.118
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:30:01.118
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:23.169
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:23.169
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:23.170
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:23.170
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:31:23.171
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:44.716
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:44.721
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:44.722
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:44.725
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:44.726
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:31:44.726
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:45.228
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:45.231
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:45.236
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:45.238
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:45.238
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:31:45.239
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:46.986
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:46.988
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:46.992
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:46.993
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:46.993
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:31:46.994
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:48.053
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:48.056
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:48.058
+!MESSAGE buffering callback sts4.classpath.zgXXcKEd springboot-servicio-productos false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:48.058
+!MESSAGE executing callback sts4.classpath.zgXXcKEd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-28 22:31:48.059
+!MESSAGE executing callback sts4.classpath.zgXXcKEd FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-07-28 22:31:48.059
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.zgXXcKEd'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
