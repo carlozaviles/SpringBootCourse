@@ -14,7 +14,7 @@ import com.jcag.item.models.Item;
 import com.jcag.item.models.Producto;
 
 
-@Service
+@Service("serviceRestTemplate")
 public class ItemServiceImpl implements IItemService{
 
 	@Autowired
